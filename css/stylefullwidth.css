@@ -307,7 +307,15 @@ footer a:hover{
 }
 @media (max-width: 770px){
 	header{
-		height: 135px;
+		height: auto;
+	}
+	header>.left, header>.right{
+		float: left;
+		width: 100%;
+	}
+	.right{
+		padding-left: 145px;
+		padding-bottom: 10px;
 	}
 	h1{
 		font-size: 2em;
@@ -319,4 +327,19 @@ footer a:hover{
 		width: 90%;
 		margin-left: 10%;
 	}
+	#main{
+		height: auto;
+		border:none;
+	}
+	#main div:nth-child(1){
+		width:100%;
+		height: auto;
+		clear:both;
+	}
+	#main div:nth-child(2){
+		width:70%;
+		height: auto;
+		float:left;
+	}
 }
+
