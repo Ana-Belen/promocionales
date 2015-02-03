@@ -5,6 +5,7 @@
 		<title>G&L Enterprise- Bolsos Publicitarios </title>
 		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../../css/stylefullwidth.css">
+		<meta name="viewport" content="initial-scale=1">
 	</head>
 	<body>
 		<header>
